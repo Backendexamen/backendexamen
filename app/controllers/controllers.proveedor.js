@@ -1,5 +1,5 @@
 import pool from "../config/db.config.js";
-import { completado, error } from "../message/mensajes.js";
+import { completado, error } from "../messages/mensajes.js";
 import bcrypt from "bcrypt";
 
 export const mostrarproveedores = async(req,res)=>{
@@ -14,8 +14,8 @@ export const mostrarproveedores = async(req,res)=>{
 
 export const insertarproveedor = async(req,res)=>{
     const nombre = req.body.nombre;
-    const contacto =req.body.contacto;
-    const empresa=req.body.empresa;
+    const contacto=req.body.contacto;
+    const empresa =req.body.empresa;
     try {
         const respuesta = await pool.query(`CALL sp_insertarproveedor('${nombre}', '${contacto}', '${empresa}')`)
         completado(req,res,200,"usuario insertado correctamente")
@@ -23,7 +23,6 @@ export const insertarproveedor = async(req,res)=>{
         error(req,res,200,"usuario insertado incorrecto")
     }
 };
-
 export const mostrarproveedor =async(req,res)=>{
     const id =req.params['id'];
     try {
