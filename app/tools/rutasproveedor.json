@@ -1,0 +1,76 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Todas las rutas de proveedor",
+    "collectionId": "33741888-bdca-4e51-b195-49c5f5e0e8ad",
+    "dateExported": "2024-05-29T13:51:32.263Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "424693af-9067-4d5f-9d2b-64585c9ed025",
+            "colId": "33741888-bdca-4e51-b195-49c5f5e0e8ad",
+            "containerId": "",
+            "name": "Eliminar proveedor",
+            "url": "http://localhost:3000/proveedor",
+            "method": "DELETE",
+            "sortNum": 10000,
+            "created": "2024-05-29T13:45:16.296Z",
+            "modified": "2024-05-29T13:45:16.296Z",
+            "headers": []
+        },
+        {
+            "_id": "476b5dcc-197e-43f7-8283-3e230f7c3305",
+            "colId": "33741888-bdca-4e51-b195-49c5f5e0e8ad",
+            "containerId": "",
+            "name": "Modificar proveedor",
+            "url": "http://localhost:3000/proveedor",
+            "method": "PUT",
+            "sortNum": 20000,
+            "created": "2024-05-29T13:45:27.444Z",
+            "modified": "2024-05-29T13:45:27.444Z",
+            "headers": []
+        },
+        {
+            "_id": "23ff1c76-2b26-43d8-b8b4-6e36261a507d",
+            "colId": "33741888-bdca-4e51-b195-49c5f5e0e8ad",
+            "containerId": "",
+            "name": "Insertar proveedor",
+            "url": "http://localhost:3000/proveedor",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-05-29T13:45:36.136Z",
+            "modified": "2024-05-29T13:45:36.136Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombre\":\"daniela\",\n  \"contacto\":\"12345678\",\n  \"empresa\":\"ASUS\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "8782848a-a325-45f8-a2f4-f3d61db43cad",
+            "colId": "33741888-bdca-4e51-b195-49c5f5e0e8ad",
+            "containerId": "",
+            "name": "Mostrar proveedor por id",
+            "url": "http://localhost:3000/proveedor",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2024-05-29T13:45:44.899Z",
+            "modified": "2024-05-29T13:45:44.899Z",
+            "headers": []
+        },
+        {
+            "_id": "3a252cac-08c6-4919-b93e-032b72b9cecc",
+            "colId": "33741888-bdca-4e51-b195-49c5f5e0e8ad",
+            "containerId": "",
+            "name": "Mostrar todos los proveedores",
+            "url": "http://localhost:3000/proveedor",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2024-05-29T13:45:52.855Z",
+            "modified": "2024-05-29T13:45:52.855Z",
+            "headers": []
+        }
+    ],
+    "ref": "hUgfyYs6ztuUvKeVt-Bppid_JoC7DzqvvDbQuHAlM84oJoPVhmbdodwd_CsqCQiEAnR24y0GThdru2X71vppBQ"
+}

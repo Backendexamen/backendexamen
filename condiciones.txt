@@ -1,0 +1,10 @@
+1. montar en github -organizacion
+2. post, get, get, put, delete
+3.crear base de datos
+4.exportar la db y save en el proyecto
+5. crear collage y save en el proyecto
+6. no mostrar la folder node_modul a gur hub
+7. contruir el distribuidor -distribuidor
+8. sacar apuntes
+9. el commit de entrega se llama "entrega final"
+10. copiar todas las condiciones y subirlas al proyecto

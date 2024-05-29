@@ -17,10 +17,10 @@ export const insertarproveedor = async(req,res)=>{
     const contacto=req.body.contacto;
     const empresa =req.body.empresa;
     try {
-        const respuesta = await pool.query(`CALL sp_insertarproveedor('${nombre}', '${contacto}', '${empresa}')`)
-        completado(req,res,200,"usuario insertado correctamente")
+        const respuesta = await pool.query(`CALL sp_insertarproveedor('${nombre}','${contacto}','${empresa}')`);
+        completado(req,res,200,"usuario insertado correctamente");
     } catch (err) {
-        error(req,res,200,"usuario insertado incorrecto")
+        error(req,res,200,"usuario insertado incorrecto");
     }
 };
 export const mostrarproveedor =async(req,res)=>{
